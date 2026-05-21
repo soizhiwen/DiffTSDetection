@@ -1,0 +1,17 @@
+[project]
+name = "timedet"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aeon[all-extras]>=1.4.0",
+    "einops>=0.8.2",
+    "ema-pytorch>=0.7.9",
+    "ipykernel>=7.2.0",
+    "pyarrow>=24.0.0",
+    "pyyaml>=6.0.3",
+    "seaborn>=0.13.2",
+    "torch==2.10",
+    "tqdm>=4.67.3",
+]
